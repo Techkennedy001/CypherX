@@ -18,7 +18,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'XPLOADER-BOT:~m7xXjJZR#8c6KnpjGgg8jX7h99EHEK62HfmS5DKkRBSdnXeSrWbU' 
 //Enter your Xploader session id here; must start with XPLOADER-BOT:~
 
 //--------------------[ BOT NAME ]----------------------//
@@ -27,7 +27,7 @@ global.botname = process.env.BOT_NAME || 'CypherX'
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '254754783972' 
+global.ownernumber = process.env.OWNER_NUMBER || '254791014324' 
 
 //--------------------[ SUDO ]--------------------------//
 
@@ -37,7 +37,7 @@ global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['254796180105', 
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Tylor' 
+global.ownername = process.env.OWNER_NAME || 'jabalken' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
@@ -53,7 +53,7 @@ global.prefixz = process.env.BOT_PREFIX || '.'
 
 //-----------------[ BOT'S MODE ]-----------------------//
 
-global.mode = process.env.MODE || 'public';
+global.mode = process.env.MODE || 'private';
 // Set 'private' to enable private mode
 // Set 'public' to enable public mode
 // Set 'group' to enable only group
@@ -61,7 +61,7 @@ global.mode = process.env.MODE || 'public';
 
 //----------[ STATUS REACTION EMOJI ]--------------//
 
-global.statusemoji = process.env.STATUS_EMOJI || '🧡'
+global.statusemoji = process.env.STATUS_EMOJI || '❤️'
 
 //---------------[ AUTO VIEW STATUS ]---------------//
 
@@ -70,12 +70,12 @@ global.autoviewstatus = process.env.AUTO_STATUS_VIEW || 'true'
 
 //--------------[ AUTO REACT STATUS ]--------------//
 
-global.autoreactstatus = process.env.AUTO_STATUS_REACT || 'false'
+global.autoreactstatus = process.env.AUTO_STATUS_REACT || 'true'
 // set true to enable and false to disable auto status react
 
 //---------------[ ALWAYS ONLINE ]------------------//
 
-global.alwaysonline = process.env.ALWAYS_ONLINE || 'true'
+global.alwaysonline = process.env.ALWAYS_ONLINE || 'false'
 //Set true to make the bot online 24/7 or set false to disable always online
 
 
@@ -86,7 +86,7 @@ global.chatbot = process.env.CHATBOT || 'false'
 
 //-------------------[ ANTI DELETE ]--------------------//
 
-global.antidelete = process.env.ANTIDELETE || 'private'
+global.antidelete = process.env.ANTIDELETE || 'chat'
 // options:- 'private', 'chat' or 'off'
 // private = Sends to message yourself 
 // chat = sends to the current chat 
@@ -94,7 +94,7 @@ global.antidelete = process.env.ANTIDELETE || 'private'
 
 //---------------------[ ANTI EDIT ]----------------------//
 
-global.antiedit = process.env.ANTI_EDIT || 'private'
+global.antiedit = process.env.ANTI_EDIT || 'off'
 // options:- 'private', 'chat' or 'off'
 // private = Sends to message yourself 
 // chat = sends to the current chat 
@@ -102,7 +102,7 @@ global.antiedit = process.env.ANTI_EDIT || 'private'
 
 //---------------------[ ANTI CALL ]----------------------//
 
-global.anticall = process.env.ANTI_CALL || 'false'
+global.anticall = process.env.ANTI_CALL || 'true'
 // set true to enable and false to disable auto blocking of callers
 
 //---------------[ WELCOME MESSAGE ]----------------//
