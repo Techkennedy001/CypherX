@@ -18,7 +18,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || 'XPLOADER-BOT:~m7xXjJZR#8c6KnpjGgg8jX7h99EHEK62HfmS5DKkRBSdnXeSrWbU' 
+global.SESSION_ID = process.env.SESSION_ID || 'XPLOADER-BOT:~amZT0C5T#iqbU7vea0rwhcVu6k-Vkr-i-gHfBn6-O35X6trR4I3M' 
 //Enter your Xploader session id here; must start with XPLOADER-BOT:~
 
 //--------------------[ BOT NAME ]----------------------//
@@ -86,7 +86,7 @@ global.chatbot = process.env.CHATBOT || 'false'
 
 //-------------------[ ANTI DELETE ]--------------------//
 
-global.antidelete = process.env.ANTIDELETE || 'chat'
+global.antidelete = process.env.ANTIDELETE || 'off'
 // options:- 'private', 'chat' or 'off'
 // private = Sends to message yourself 
 // chat = sends to the current chat 
